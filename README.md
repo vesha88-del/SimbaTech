@@ -41,7 +41,11 @@
     <li>Konsultacije za optimizaciju procesa</li>
   </ul>
 </section>
-
+<section id="gallery">
+  <h2>Galerija simulacija</h2>
+  <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/factory-simulation-manufacturing-line.jpg" alt="Simulacija proizvodne linije u FlexSim-u" width="100%" />
+  <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/manufacturing-simulation-steel-production.jpg" alt="Simulacija čelične proizvodnje" width="100%" />
+</section>
 <section id="portfolio">
   <h2>Portfolio</h2>
   <h3>Optimizacija montažne linije</h3>
