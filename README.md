@@ -46,6 +46,18 @@
   <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/factory-simulation-manufacturing-line.jpg" alt="Simulacija proizvodne linije u FlexSim-u" width="100%" />
   <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/manufacturing-simulation-steel-production.jpg" alt="Simulacija čelične proizvodnje" width="100%" />
 </section>
+<section id="videos">
+  <h2>Video demonstracije</h2>
+
+  <h3>Uvod u FlexSim</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZN--eKDcGMQ" title="Introduction to FlexSim" frameborder="0" allowfullscreen></iframe>
+
+  <h3>Prvi model u FlexSim-u</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YJgJzyDHZ8o" title="FlexSim 2023 | Build Your First Simulation Model" frameborder="0" allowfullscreen></iframe>
+
+  <h3>Logističke petlje u FlexSim-u</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RmnB_5ua5ME" title="FlexSim live tutorials #8 Logistic loops in FlexSim." frameborder="0" allowfullscreen></iframe>
+</section>
 <section id="portfolio">
   <h2>Portfolio</h2>
   <h3>Optimizacija montažne linije</h3>
