@@ -6,35 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simulacija procesa | FlexSim rešenja</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header { background: #003366; color: white; padding: 2rem; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    section { padding: 2rem; }
-    .cta { background: #0077cc; color: white; padding: 1rem; text-align: center; }
-    footer { background: #222; color: white; text-align: center; padding: 1rem; }
-  </style>
-</head>
+    .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 1rem;
+}
+.gallery-grid img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+#lightbox {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+    <script>
+function openLightbox(src) {
+  document.getElementById("lightbox-img").src = src;
+  document.getElementById("lightbox").style.display = "flex";
+}
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
+}
+</script>
 <body>
+  <section id="gallery">
+  <h2>Galerija simulacija</h2>
+  <div class="gallery-grid">
+    <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/factory-simulation-manufacturing-line.jpg" alt="Simulacija proizvodne linije" onclick="openLightbox(this.src)" />
+    <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/manufacturing-simulation-steel-production.jpg" alt="Simulacija čelične proizvodnje" onclick="openLightbox(this.src)" />
+    <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/flexsim-healthcare-simulation.jpg" alt="Simulacija u zdravstvu" onclick="openLightbox(this.src)" />
+  </div>
+</section>
+
+<!-- Lightbox prikaz -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Uvećana slika" />
+</div>
 <section id="gallery">
   <h2>Galerija simulacija</h2>
   <p>Pogledajte primere FlexSim modela koje koristimo za optimizaciju procesa:</p>
   <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/factory-simulation-manufacturing-line.jpg" alt="Simulacija proizvodne linije" width="100%" />
   <br><br>
   <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/manufacturing-simulation-steel-production.jpg" alt="Simulacija čelične proizvodnje" width="100%" />
-</section>
-  <section id="videos">
-  <h2>Video demonstracije</h2>
-  <p>Upoznajte se sa radom u FlexSim-u kroz naše preporučene tutorijale:</p>
-
-  <h3>Uvod u FlexSim</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZN--eKDcGMQ" title="Introduction to FlexSim" frameborder="0" allowfullscreen></iframe>
-
-  <h3>Prvi model u FlexSim-u</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YJgJzyDHZ8o" title="Build Your First Simulation Model" frameborder="0" allowfullscreen></iframe>
-
-  <h3>Logističke petlje u FlexSim-u</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/RmnB_5ua5ME" title="Logistic loops in FlexSim" frameborder="0" allowfullscreen></iframe>
-</section>
 <header>
   <h1>Simuliraj. Optimizuj. Napreduj.</h1>
   <p>Digitalna transformacija vaših proizvodnih i logističkih procesa kroz FlexSim simulaciju.</p>
@@ -59,12 +89,7 @@
     <li>Obuka i edukacija za korišćenje FlexSim-a</li>
     <li>Konsultacije za optimizaciju procesa</li>
   </ul>
-</section>
-<section id="gallery">
-  <h2>Galerija simulacija</h2>
-  <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/factory-simulation-manufacturing-line.jpg" alt="Simulacija proizvodne linije u FlexSim-u" width="100%" />
-  <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/manufacturing-simulation-steel-production.jpg" alt="Simulacija čelične proizvodnje" width="100%" />
-</section>
+
 <section id="videos">
   <h2>Video demonstracije</h2>
 
