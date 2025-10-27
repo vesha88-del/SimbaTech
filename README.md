@@ -15,7 +15,26 @@
   </style>
 </head>
 <body>
+<section id="gallery">
+  <h2>Galerija simulacija</h2>
+  <p>Pogledajte primere FlexSim modela koje koristimo za optimizaciju procesa:</p>
+  <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/factory-simulation-manufacturing-line.jpg" alt="Simulacija proizvodne linije" width="100%" />
+  <br><br>
+  <img src="https://www.flexsim.com/wp-content/uploads/sites/2/2018/06/manufacturing-simulation-steel-production.jpg" alt="Simulacija čelične proizvodnje" width="100%" />
+</section>
+  <section id="videos">
+  <h2>Video demonstracije</h2>
+  <p>Upoznajte se sa radom u FlexSim-u kroz naše preporučene tutorijale:</p>
 
+  <h3>Uvod u FlexSim</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZN--eKDcGMQ" title="Introduction to FlexSim" frameborder="0" allowfullscreen></iframe>
+
+  <h3>Prvi model u FlexSim-u</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YJgJzyDHZ8o" title="Build Your First Simulation Model" frameborder="0" allowfullscreen></iframe>
+
+  <h3>Logističke petlje u FlexSim-u</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RmnB_5ua5ME" title="Logistic loops in FlexSim" frameborder="0" allowfullscreen></iframe>
+</section>
 <header>
   <h1>Simuliraj. Optimizuj. Napreduj.</h1>
   <p>Digitalna transformacija vaših proizvodnih i logističkih procesa kroz FlexSim simulaciju.</p>
